@@ -1,25 +1,28 @@
 body {
     background-color: lightgrey;
     margin-left: 100;
-    padding: 30px 250px;
+    padding: 30px 150px;
+}
+.start{
+    margin: auto;
 }
 
-table.learning{text-decoration: none; border-collapse:collapse;width:100%;text-align:center;}
+table.learning{text-decoration: none; border-collapse:collapse;text-align:center;margin: auto;}
 table.learning th{font-weight:normal;font-size:20px; color:#ffffff;background-color:#0f65a3;}
 table.learning td{font-size:15px;color:#354251;}
-table.learning td,table.learning th{white-space:pre-wrap;padding:5px 5px;line-height:13px;vertical-align: middle;border: 1px solid #0f65a3;}
+table.learning td,table.learning th{white-space:pre-wrap;padding:5px 5px;line: height 1.5em;vertical-align: middle;border: 1px solid #0f65a3;}
 table.learning tr:hover{background-color:#f9fafb}
 table.learning tr:hover td{color:#354251;cursor:default;}
 
 
-table.optional_learning{text-decoration: none;border-collapse:collapse;width:100%;text-align:left;}
+table.optional_learning{text-decoration: none;border-collapse:collapse;text-align:left;margin: auto;}
 table.optional_learning th{font-weight:normal;font-size:16px; color:#ffffff;background-color:#348f00;}
 table.optional_learning td{font-size:14px;color:#000000;}
 table.optional_learning td,table.optional_learning th{white-space:pre-wrap;padding:10px 20px;line-height:14px;vertical-align: middle;border: 1px solid #348f00;}
 table.optional_learning tr:hover{background-color:#f9fafb}
 table.optional_learning tr:hover td{color:#354251;cursor:default;}
 
-table.works{text-decoration: none;border-collapse:collapse;width:100%;text-align:left;}
+table.works{text-decoration: none;border-collapse:collapse;;text-align:left;margin: auto;}
 table.works th{font-weight:normal;font-size:16px; color:#ffffff;background-color:#f72f54;}
 table.works td{font-size:14px;color:#000000;}
 table.works td,table.works th{white-space:pre-wrap;padding:10px 20px;line-height:14px;vertical-align: middle;border: 1px solid #f72f54;}
@@ -29,12 +32,14 @@ table.works tr:hover td{color:#354251;cursor:default;}
 .headers {
     color: black;
     font-weight: bold;
+    text-align: center;
  }
 
  .hard_skills {
     border:1px solid #2126b0;
     border-collapse:collapse;
-    /* padding-left: 100px; */
+    margin: 0;
+    padding: 0;
 }
 .hard_skills th {
     border:1px solid #2126b0;
@@ -66,14 +71,19 @@ table.works tr:hover td{color:#354251;cursor:default;}
 }
 
 .skills{
-    display: flex;
-    justify-content: space-around;
+}
+.skills td {
+    vertical-align: top;
+}
+
+.hr{
 }
 
 .dop_info {
     border:1px solid #ed922b;
     border-collapse:collapse;
     padding:5px;
+    margin: auto;
 }
 .dop_info th {
     border:1px solid #ed922b;
