@@ -1,5 +1,7 @@
 body {
     background-color: lightgrey;
+    margin-left: 100;
+    padding: 30px 250px;
 }
 
 table.learning{text-decoration: none; border-collapse:collapse;width:100%;text-align:center;}
@@ -32,7 +34,7 @@ table.works tr:hover td{color:#354251;cursor:default;}
  .hard_skills {
     border:1px solid #2126b0;
     border-collapse:collapse;
-    padding:5px;
+    /* padding-left: 100px; */
 }
 .hard_skills th {
     border:1px solid #2126b0;
@@ -65,7 +67,7 @@ table.works tr:hover td{color:#354251;cursor:default;}
 
 .skills{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .dop_info {
