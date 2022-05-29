@@ -1,0 +1,86 @@
+body {
+    background-color: lightgrey;
+}
+
+table.learning{text-decoration: none; border-collapse:collapse;width:100%;text-align:center;}
+table.learning th{font-weight:normal;font-size:20px; color:#ffffff;background-color:#0f65a3;}
+table.learning td{font-size:15px;color:#354251;}
+table.learning td,table.learning th{white-space:pre-wrap;padding:5px 5px;line-height:13px;vertical-align: middle;border: 1px solid #0f65a3;}
+table.learning tr:hover{background-color:#f9fafb}
+table.learning tr:hover td{color:#354251;cursor:default;}
+
+
+table.optional_learning{text-decoration: none;border-collapse:collapse;width:100%;text-align:left;}
+table.optional_learning th{font-weight:normal;font-size:16px; color:#ffffff;background-color:#348f00;}
+table.optional_learning td{font-size:14px;color:#000000;}
+table.optional_learning td,table.optional_learning th{white-space:pre-wrap;padding:10px 20px;line-height:14px;vertical-align: middle;border: 1px solid #348f00;}
+table.optional_learning tr:hover{background-color:#f9fafb}
+table.optional_learning tr:hover td{color:#354251;cursor:default;}
+
+table.works{text-decoration: none;border-collapse:collapse;width:100%;text-align:left;}
+table.works th{font-weight:normal;font-size:16px; color:#ffffff;background-color:#f72f54;}
+table.works td{font-size:14px;color:#000000;}
+table.works td,table.works th{white-space:pre-wrap;padding:10px 20px;line-height:14px;vertical-align: middle;border: 1px solid #f72f54;}
+table.works tr:hover{background-color:#f9fafb}
+table.works tr:hover td{color:#354251;cursor:default;}
+
+.headers {
+    color: black;
+    font-weight: bold;
+ }
+
+ .hard_skills {
+    border:1px solid #2126b0;
+    border-collapse:collapse;
+    padding:5px;
+}
+.hard_skills th {
+    border:1px solid #2126b0;
+    padding:5px;
+    color: #313030;
+}
+.hard_skills td {
+    border:1px solid #2126b0;
+    text-align:center;
+    padding:5px;
+    color: #313030;
+}
+
+.soft_skills {
+    border:1px solid #cd8acf;
+    border-collapse:collapse;
+    padding:5px;
+}
+.soft_skills th {
+    border:1px solid #cd8acf;
+    padding:5px;
+    color: #313030;
+}
+.soft_skills td {
+    border:1px solid #cd8acf;
+    text-align:center;
+    padding:5px;
+    color: #313030;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dop_info {
+    border:1px solid #ed922b;
+    border-collapse:collapse;
+    padding:5px;
+}
+.dop_info th {
+    border:1px solid #ed922b;
+    padding:5px;
+    color: #313030;
+}
+.dop_info td {
+    border:1px solid #ed922b;
+    text-align:center;
+    padding:5px;
+    color: #313030;
+}
