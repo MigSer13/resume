@@ -71,6 +71,7 @@ table.works tr:hover td{color:#354251;cursor:default;}
 }
 
 .skills{
+    margin: auto;
 }
 .skills td {
     vertical-align: top;
